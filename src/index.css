@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+
+.btn {
+    @apply inline-block focus:outline-none focus:ring px-5 py-3 rounded-lg uppercase tracking-wider font-semibold text-sm;
+}
+
+.btn-indigo {
+    @apply bg-indigo-500 hover:bg-indigo-400 active:bg-indigo-600 text-white;
+}
+
+.btn-gray {
+    @apply bg-gray-400 hover:bg-gray-300 active:bg-gray-500 text-gray-800;
+}
+
+@tailwind utilities;
